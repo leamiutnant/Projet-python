@@ -24,8 +24,8 @@ def home():
     return template('tpl/tmpt_search', city = l_city, activity = l_activity)
 
 #méthode qui fait les requêtes sql pour afficher les résultats en fonction de la recherche effectuée.
-@post('/research')
-def research():
+@post('/search')
+def search():
     try:
         #on se connecte à la bd.
         conn = sqlite3.connect("../bddata/database.db")

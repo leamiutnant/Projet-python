@@ -8,7 +8,7 @@
     <body>
   		<h1>Recherche</h1>
   		Choisissez une ville ou une activité : <br/><br/>
-      <form action="/research" method="POST">
+      <form action="/search" method="POST">
         Ville :
         <select name="city">
           <option value="all">Sélectionner toutes les villes</option>
