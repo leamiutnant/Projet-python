@@ -14,6 +14,3 @@ Pour lancer l'application il faut lancer le serveur : ouvrir un terminal et alle
 Ensuite, ouvrez un naviguateur et entrez l'adresse suivante : http://localhost:8182/home
 Enfin, vous devriez voir s'afficher la première page qui vous propose de sélectionner une activité et/ou un sport.
 Une fois votre choix fait, il vous suffit de cliquer sur rechercher et vous allez etre redirigé vers une seconde page où vont s'afficher les résultats en fonction de votre recherche. Vous pouvez également cliquer sur un lien vous permettant de retourner sur la première page pour pouvoir effectuer une nouvelle recherche.
-
-### Problèmes :
-Le problème d'affichage des villes et des activités est du au fait qu'on fasse une liste pour parcourir le cursor, mais je n'ai pas réussi à le gérer.
