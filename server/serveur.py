@@ -9,6 +9,10 @@ en utilisant la librairie bottle.
 
 #Lancement de la page où l'on doit sélectionner une city et/ou une activité
 @route('/home')
+"""
+Lancement de la page où l'on doit sélectionner une city et/ou une activité,
+la page d'acceuil, en lui envoyant les données des villes et des activites.
+"""
 def home():
     conn = sqlite3.connect("../bddata/database.db")
     c = conn.cursor()
@@ -25,6 +29,10 @@ def home():
 
 #méthode qui fait les requêtes sql pour afficher les résultats en fonction de la recherche effectuée.
 @post('/search')
+"""
+Méthode qui fait les requêtes sql pour afficher les résultats en fonction de la recherche effectuée.
+Elle récupère ce qui a été sélectionner sur le template tmpt_search.
+"""
 def search():
     try:
         #on se connecte à la bd.
